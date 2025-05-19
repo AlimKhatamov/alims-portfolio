@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Your Name</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div id="theme-toggle" class="theme-toggle">
+        <i class="fa fa-moon"></i>
+      </div>
+      <div id="nav-toggle" class="nav-toggle">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+      <div class="home-content reveal">
+        <h1>Hello, I'm <span>Your Name</span></h1>
+        <p>I'm a passionate Software Developer with experience in building web applications.</p>
+      </div>
+      <div class="home-image reveal">
+        <img src="https://via.placeholder.com/300x300" alt="Profile Picture" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="about-text reveal">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac faucibus justo. 
+        Nullam pretium, nulla eu egestas viverra, neque erat aliquam libero, sit amet rhoncus 
+        lorem velit at purus.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-container">
+        <div class="project-card reveal">
+          <img src="https://via.placeholder.com/600x400" alt="Project 1" />
+          <div class="project-info">
+            <h3>Project One</h3>
+            <p>A brief description of Project One.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <img src="https://via.placeholder.com/600x400" alt="Project 2" />
+          <div class="project-info">
+            <h3>Project Two</h3>
+            <p>A brief description of Project Two.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <img src="https://via.placeholder.com/600x400" alt="Project 3" />
+          <div class="project-info">
+            <h3>Project Three</h3>
+            <p>A brief description of Project Three.</p>
+            <a href="#" class="btn">View Project</a>
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <h2 class="section-title reveal">Contact</h2>
+      <div class="contact-container">
+        <form class="contact-form reveal">
+          <input type="text" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
